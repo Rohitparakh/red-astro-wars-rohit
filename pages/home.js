@@ -17,15 +17,16 @@ const Home = () => {
                 <div className="container mx-auto my-28">
                     
                     <div className="flex justify-center my-24">
-                        <iframe
-                            width="800"
-                            height="400"
-                            src="https://youtu.be/nPaLF-gmYPI"
-                            title="YouTube video player"
-                            frameBorder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowFullScreen
+                    <iframe
+                            width="800" 
+                            height="400" 
+                            src="https://www.youtube.com/embed/nPaLF-gmYPI" 
+                            title="Red Astro Wars ($RAW) - Trailer" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen
                         ></iframe>
+                    
                     </div>
                 </div>                
                 <Avatar page="home" />
