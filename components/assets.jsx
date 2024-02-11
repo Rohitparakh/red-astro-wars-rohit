@@ -79,12 +79,17 @@ const Assets = () => {
             <div className="mt-7 flex flex-col text-center justify-center text-white">
               <h1 className="heading text-5xl text-white uppercase">Assets</h1>
               <p className="w-2/3 text-xl mx-auto my-5">
-                Assets are created by [RAW]
-                Industries, [RAW] Motors & [RAW] Forgery and can be airdropped
-                by looting the RedBox or traded in the MarketPlace.
+                Assets are created by [RAW] Industries, [RAW] Motors & [RAW]
+                Forgery and can be airdropped by looting the RedBox or traded in
+                the MarketPlace.
               </p>
             </div>
           </div>
+        </div>
+        <div className="container mx-auto my-28">
+          <div className="flex justify-center my-24">
+            <iframe width="1000" height="650" src="https://www.youtube.com/embed/xT9XZuXPIME?si=CceQme7AGCuo3tpO" title="Red Astro Wars ($RAW) - RedBox" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
         </div>
         <div className="container mx-auto my-14">
           <div className="flex flex-row">

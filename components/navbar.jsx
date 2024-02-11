@@ -77,6 +77,22 @@ const Navbar = () => {
                   <div className="md:hidden flex justify-center items-center">
                     <hr className="mx-auto w-[305px] border" />
                   </div>
+                  <Link href="#tokenomics" passHref>
+                    <div className="flex flex-col items-center justify-center cursor-pointer">
+                      <p
+                        className={
+                          "text-[16px] op0" +
+                          (url === "#tokenomics" ? " activeLink" : "")
+                        }
+                      >
+                        TOKENOMICS
+                      </p>
+                      {/* <p className="font-semibold text-red-500 uppercase text-[10px]">Coming Soon</p> */}
+                    </div>
+                  </Link>
+                  <div className="md:hidden flex justify-center items-center">
+                    <hr className="mx-auto w-[305px] border" />
+                  </div>
                   <Link href="/roadmap" passHref>
                     <div className="flex flex-col items-center justify-center cursor-pointer">
                       <p
@@ -237,6 +253,19 @@ const Navbar = () => {
                       {/* <p className="font-semibold text-red-500 uppercase text-[10px]">Coming Soon</p> */}
                     </div>
                   </Link>
+                  <Link href="#tokenomics" passHref>
+                    <div className="flex flex-col items-center justify-center cursor-pointer">
+                      <p
+                        className={
+                          "text-[16px]" +
+                          (url === "#tokenomics" ? " activeLink" : "op0")
+                        }
+                      >
+                        TOKENOMICS
+                      </p>
+                      {/* <p className="font-semibold text-red-500 uppercase text-[10px]">Coming Soon</p> */}
+                    </div>
+                  </Link>
                   <Link href="/roadmap" passHref>
                     <div className="flex flex-col items-center justify-center cursor-pointer">
                       <p
@@ -381,6 +410,19 @@ const Navbar = () => {
                   {/* <p className="font-semibold text-red-500 uppercase text-[10px]">Coming Soon</p> */}
                 </div>
               </Link>
+              <Link href="#tokenomics" passHref>
+                <div className="flex flex-col items-center justify-center cursor-pointer">
+                  <p
+                    className={
+                      "text-[16px]" +
+                      (url === "#tokenomics" ? " activeLink" : " op0")
+                    }
+                  >
+                    TOKENOMICS
+                  </p>
+                  {/* <p className="font-semibold text-red-500 uppercase text-[10px]">Coming Soon</p> */}
+                </div>
+              </Link>
               <Link href="/roadmap" passHref>
                 <div className="flex flex-col items-center justify-center cursor-pointer">
                   <p
@@ -433,8 +475,15 @@ const Navbar = () => {
                   {/* <p className="font-semibold text-red-500 uppercase text-[10px]">Coming Soon</p> */}
                 </div>
               </Link>
-              <Link href="https://martianverse.redastrowars.io/" passHref >
-                <div className="flex flex-col items-center justify-center cursor-pointer" style={{padding:'10px 14px',marginLeft:'40px', background:'#db1537'}}>
+              <Link href="https://martianverse.redastrowars.io/" passHref>
+                <div
+                  className="flex flex-col items-center justify-center cursor-pointer"
+                  style={{
+                    padding: "10px 14px",
+                    marginLeft: "40px",
+                    background: "#db1537",
+                  }}
+                >
                   <p
                     className={
                       "text-[20px]" + (url === "/" ? " activeLink" : " op0")

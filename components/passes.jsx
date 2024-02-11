@@ -5,7 +5,7 @@ const Passes = () => {
     return (
         <>
             <div className="passMainDiv flex flex-col justify-around p-5 md:p-14">                
-                <div className="w-[327px] md:w-[923px] mx-auto redBox flex flex-col-reverse md:flex-row justify-center md:justify-between p-5 md:py-10 md:px-14 mt-10">
+                <div className="md:w-full mx-auto redBox flex flex-col-reverse md:flex-row justify-center md:justify-between p-5 md:py-10 md:px-14 mt-10">
                     <div className="text-center md:text-left md:w-1/2 mt-5 md:mt-0 space-y-5 md:space-y-10">
                         <h1 className="heading text-[24px] md:text-[48px] uppercase text-white">
                             Red
@@ -17,7 +17,7 @@ const Passes = () => {
                         These are limited edition Boxes that will be only available once during the entirety of the road map. Holding one of these will allow holders to claim Power-Ups, In-Game Assets and Collectibles inside the MartianVerse.
                         </p>
                     </div>
-                    <div className="w-[279px] h-[230px] md:w-[332px] md:h-[291px]">
+                    <div className="h-[230px] md:w-[332px] md:h-[291px]">
                         <Image
                             src='/redBox.png'
                             alt="Red Box"

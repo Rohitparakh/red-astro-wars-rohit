@@ -7,6 +7,8 @@ import Martianverse from "../components/martianverse";
 import Marketplace from "../components/marketplace";
 import Roadmap from "../components/roadmap";
 import Team from "../components/team";
+import Tokenomics from "../components/tokenomics";
+import Funding from "../components/funding";
 
 const Home = () => {
     return (
@@ -32,9 +34,11 @@ const Home = () => {
                 <Avatar page="home" />
                 <Passes />
                 <Martianverse page="home" />
+                <Tokenomics />
                 <Marketplace />
                 <Team />
                 <Roadmap page="home" />
+                <Funding />
                 <Footer />
             </div>
         </>
