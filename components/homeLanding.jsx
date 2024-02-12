@@ -56,7 +56,7 @@ const HomeLanding = () => {
               <div class="flex justify-center banner-icons">
                 <ul class="social-icon social-default">
                   <li>
-                    <a href="#" target="_blank">
+                    <a href="https://discord.gg/kZPbnHr5Sa" target="_blank">
                       <Image
                         src={"/images/discord.svg"}
                         width="45"
@@ -65,7 +65,7 @@ const HomeLanding = () => {
                     </a>
                   </li>
                   <li>
-                    <a href="#" target="_blank">
+                    <a href="https://t.me/RAW_Portal" target="_blank">
                       <Image
                         src={"/images/telegram.svg"}
                         width="45"
@@ -74,7 +74,7 @@ const HomeLanding = () => {
                     </a>
                   </li>
                   <li>
-                    <a href="#" target="_blank">
+                    <a href="https://twitter.com/RedAstroWarsERC" target="_blank">
                       <Image
                         src={"/images/twitter.svg"}
                         width="45"
@@ -82,7 +82,7 @@ const HomeLanding = () => {
                       />
                     </a>
                   </li>
-                  <li>
+                  {/* <li>
                     <a href="#" target="_blank">
                       <Image
                         src={"/images/gitbook.svg"}
@@ -90,7 +90,7 @@ const HomeLanding = () => {
                         height={45}
                       />
                     </a>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
