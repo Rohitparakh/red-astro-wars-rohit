@@ -82,15 +82,15 @@ const HomeLanding = () => {
                       />
                     </a>
                   </li>
-                  {/* <li>
-                    <a href="#" target="_blank">
+                  <li>
+                    <a href="https://medium.com/@redastrowar/red-astro-wars-e866a09d9125" target="_blank">
                       <Image
-                        src={"/images/gitbook.svg"}
+                        src={"/images/medium.svg"}
                         width="45"
                         height={45}
                       />
                     </a>
-                  </li> */}
+                  </li> 
                 </ul>
               </div>
             </div>

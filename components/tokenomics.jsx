@@ -64,10 +64,10 @@ const Tokenomics = () => {
                       <div className="single-progress mb-4">
                         <div className="flex justify-between mb-2">
                           <h6 className="title">LP</h6>
-                          <span className="progress-number">5%</span>
+                          <span className="progress-number">80%</span>
                         </div>
                         <div className="progress">
-                          <div className="progress-bar width-10"></div>
+                          <div className="progress-bar width-80"></div>
                         </div>
                       </div>
                     </div>
@@ -103,7 +103,7 @@ const Tokenomics = () => {
                         <div className="title-wrapper">
                           <h4 className="title text-[18px]">
                             Token Supply:{" "}
-                            <strong className="title strong">1111</strong>
+                            <strong className="title strong">10,000,000</strong>
                           </h4>
                         </div>
                       </li>
@@ -111,22 +111,7 @@ const Tokenomics = () => {
                         <div className="title-wrapper">
                           <h4 className="title text-[18px]">
                             Buy/Sell Tax:{" "}
-                            <strong className="title strong">3%</strong>
-                          </h4>
-                        </div>
-                      </li>
-                      <li className="flex items-center">
-                        <div className="title-wrapper">
-                          <h4 className="title text-[18px]">
-                            Contract Address
-                            <br />
-                            <a
-                              className="title-link d-block "
-                              href="https://etherscan.io/token/0xcD14517C7397a003aeC7404CB8159f16a90f9fE9"
-                              target="_blank"
-                            >
-                              <span className="title strong">0x</span>
-                            </a>
+                            <strong className="title strong">5:5</strong>
                           </h4>
                         </div>
                       </li>

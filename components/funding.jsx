@@ -13,7 +13,7 @@ const Funding = () => {
                 It's with immense gratitude that we reveal the culmination of
                 our fundraising efforts has secured{" "}
                 <span className="red text-[30px]">
-                  <strong>$750,000</strong>
+                  <strong>$120,000</strong>
                 </span>{" "}
                 in{" "}
                 <strong>
